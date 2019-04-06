@@ -1,0 +1,168 @@
+/* ~Label Selector */
+header {
+}
+
+/* ~Desceding Selector~ */
+
+bodyheaderdivnavollia {
+}
+
+/* ~ID Selector~ */
+
+#portafolio {
+}
+
+/* ~Class Selector~ */
+.link {
+}
+/*  |------------------------------------------------|
+    |---------      ~~~Tags Selectors~~~     ---------|
+    |------------------------------------------------|  */
+
+body {
+    font-family: "Souce Sans Pro", sans-serif;
+    margin: 0;
+}
+
+ol, ul {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 10px 500px 10px 10px;
+    /*  -----------------------------
+        -    ~Text Formats~         -
+        -text-transform: uppercase; -  
+        -text-decoration: underline;- 
+        -----------------------------   */
+}
+h1 strong {
+    color: #ff0202;
+}
+
+h2{
+    color: white;
+    margin: 10px;
+}
+
+figure {
+    margin: 0;
+}
+/*  |--------------------------------------------------|
+    |--------------------------------------------------|
+    |--------------------------------------------------|*/
+
+
+/*  |--------------------------------------------------|
+    |---------      ~~~Class Selectors~~~     ---------|
+    |--------------------------------------------------|    */
+
+.flexbox{
+    display: flex;
+
+/*  flex-warp: nowarp;      | This is used when you want the boxes to be deloyed downwards  */
+    flex-wrap: wrap;
+
+/*  flex-direction: column; | Place the columns vertically                                  */
+}
+.menu {
+    height: inherit;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    border: solid 
+}
+.header ol {
+    display: flex;
+    height: inherit;
+}
+.header ol li {
+    height: inherit;
+}
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.hero {
+    height: 300px;
+    background-image: url(../imagenes/hero_huevo.jpg);
+    background-color: #1b2127;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+}
+.portfolio {
+    color: black;
+}
+
+.project {
+    /*  ---------------------------------    
+        -        ~All edges~            -
+        -border-top: 10px solid red;    -
+        -border-right: 10px solid green;-
+        -border-left: 10px solid orange;-
+        -border-bottom: 10px solid pink;-
+        -border-top-width: 10px;        -
+        -border-top-style: solid;       -
+        -border-top-color: red;         -
+        ---------------------------------   */
+    border: 2.5px solid rgb(73, 72, 72);
+    border-radius: 10px;
+    /*  ------`-------------------------------
+        -        ~Description~              -
+        -The edges for default choose the   -
+        -black, but, if you asign any color,-
+        -edge will choose                   -
+        -------------------------------------   */
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: rgb(225, 223, 235);    
+}
+.project-details {
+    width: 500px;
+    margin: 0;
+}
+.project-imageContainer{
+    width: 500px;
+}
+/*  |--------------------------------------------------|
+    |--------------------------------------------------|
+    |--------------------------------------------------|    */
+
+/*  |--------------------------------------------------|
+    |---------      ~~~ID Selectors~~~     ------------|
+    |--------------------------------------------------|    */
+
+#fotohero{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex: end;
+    position: relative;
+    bottom:90px;
+    right: 30px;
+}
+
+/*  |--------------------------------------------------|
+    |--------------------------------------------------|
+    |--------------------------------------------------| */
